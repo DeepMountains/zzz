@@ -12,6 +12,10 @@ Airline Reservation System
 
 Download Source Code: https://itsourcecode.com/wp-content/uploads/2021/03/Airline-Reservation-System-PHP-Project-Source-Code.zip
 
+# Vulnerabilities
+
+LFI
+
 # Description
 
 In the site's index.php page, due to insufficient filtering of the page parameter, an attacker can construct a special POC to achieve local file inclusion.
