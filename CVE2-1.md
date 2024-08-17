@@ -32,6 +32,7 @@ In the PropertiesController.php controller, the upload method is used to upload 
 <img width="1003" alt="image" src="https://github.com/user-attachments/assets/2c841df1-5729-44dc-9a6e-a973742961f5">
 
 # POC
+Note that in the form-data position, name="photo" is changed to name="file"
 ```
 POST /admin/properties HTTP/1.1
 Host: <host:port>
