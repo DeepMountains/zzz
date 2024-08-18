@@ -30,4 +30,6 @@ In the FileManagerController.php controller, the rename method can modify the na
 2. Through routing, you can find that the controller corresponding to the /admin/file_manager/rename interface is beike/Admin/Http/Controllers/FileManagerController.php.
 <img width="634" alt="image" src="https://github.com/user-attachments/assets/f0f5bd86-7677-4c0c-9601-a1fba1c8449b">
 
-3. 同时fileManagerService方法在
+3. The fileManagerService object is set to "\Beike\Admin\Services\FileManagerService::class" in the __construct() method
+
+4. 
