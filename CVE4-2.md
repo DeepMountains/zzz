@@ -32,4 +32,9 @@ In the FileManagerController.php controller, the rename method can modify the na
 
 3. The fileManagerService object is set to "\Beike\Admin\Services\FileManagerService::class" in the __construct() method
 
-4. 
+4. Follow up the FileManagerService class in beike/Admin/Services/FileManagerService.php, and you can find the updateName method. By analyzing the code, we can find that this method does not filter the file name, which allows attackers to directly modify the suffix to php.
+<img width="692" alt="image" src="https://github.com/user-attachments/assets/3809714a-41fd-47d4-a0c3-d369065cd45c">
+
+# POC
+<img width="1355" alt="image" src="https://github.com/user-attachments/assets/0315b651-3795-4891-9b23-eb1cb14dc544">
+
